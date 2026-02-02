@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Pose } from "@mediapipe/pose";
-import "./tryon.css";
+import "./TryOn.css";
 
 export default function TryOn() {
   const location = useLocation();
