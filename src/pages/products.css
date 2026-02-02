@@ -13,9 +13,9 @@
   width: 100%;
   max-width: 1100px;
 
-  justify-content: start;   /* align grid items to left */
-  margin-left: 70px;        /* pushes everything to the right */
+  margin-left: 60px;   /* ✅ pushes cards to the right */
 }
+
 
 
 
@@ -146,8 +146,10 @@
   cursor: pointer;
   transition: all 0.2s ease;
 
-  white-space: nowrap;   /* ⭐ THIS FIXES IT */
+  white-space: nowrap;   /* ✅ keeps "Virtual Trial" in one line */
+  min-width: 120px;      /* optional: gives button more space */
 }
+
 
 
 .ar-btn:hover {
